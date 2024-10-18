@@ -1,0 +1,50 @@
+
+/* specifity calculator website to check */
+/* "!important" next to styling overwrites all specifities */
+
+* {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: aquamarine;
+    margin: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+span {
+    margin: 2rem;
+}
+
+div {
+    border: 2px solid black;
+    font-family: Verdana;
+    height: 90vh;
+    width: 90vh
+}
+
+#box1 {
+    background-color: greenyellow;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box4 {
+    box-sizing: content-box;
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+/* content box: extends element by padding */
+/* border box:  element absorbs padding, element size doesn't change */
+/* use "url(img-name.ext)" instead of file path (if img is in site folder) */
+
+/* top, bottom, left, right: relative to another element */
+/* transform: relative to element itself */

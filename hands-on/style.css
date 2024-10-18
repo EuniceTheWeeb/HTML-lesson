@@ -1,0 +1,25 @@
+/* 
+Change all <h1> to have background color greencj
+Change the header for Software Developer to the color red and align it all the way to right (and only that header)
+Change the font of all links to Arial
+Change all the text of the Skills bullet points to be background color azure. The bullet point shouldn't have the background color. (Challenge: can you do it without adding a new ID or class?)
+By adding a new class, give the JavaScript and HTML/CSS text a background color of yellow.
+Can you make it work by tweaking specificity? 
+By adding a new class, style the text JavaScript so that its font size is 32px
+Set the default font of all paragraphs and text to be Calibri. */
+
+* {
+    font-family: Calibri;
+}
+
+h1 {
+    background-color: green;
+}
+
+header {
+    color: red;
+}
+
+a {
+    font-family: Arial;
+}
