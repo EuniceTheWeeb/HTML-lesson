@@ -1,0 +1,16 @@
+/* justify-content: space-btw - even spacing between elements in div */
+/* space-evenly: even spacing btw elements and border of div */
+
+/* justify - x-axis */
+/* align - y-axis */
+
+/* media query in ascending order */
+/* bg-center - fix centerpoint of img so it shrinks to the center */
+
+/* bootstrap: diff default font, margin & padding 0 by default */
+/* bootstrap <main> already mobile responsive */
+/* any styling in html is for mobile devices <= 768px */
+
+* {
+    padding: 1rem;
+}
